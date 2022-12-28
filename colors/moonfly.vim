@@ -306,7 +306,7 @@ endif
 exec 'highlight lCursor guifg=bg guibg=' . s:grey247
 exec 'highlight CursorLineNr cterm=none guibg=' . s:grey234 . ' guifg=' . s:blue . ' gui=none'
 exec 'highlight CursorColumn guibg=' . s:grey234
-exec 'highlight CursorLine cterm=none guibg=' . s:grey234
+exec 'highlight CursorLine cterm=none guibg=' . s:grey239
 exec 'highlight Folded guibg=' . s:grey234 . ' guifg='. s:lime
 exec 'highlight FoldColumn guibg=' . s:grey236 . ' guifg=' . s:lime
 exec 'highlight SignColumn guibg=bg guifg=' . s:lime
@@ -324,7 +324,7 @@ highlight! link Delimiter MoonflyWhite
 highlight! link qfFileName MoonflyEmerald
 
 " Color column (after line 80)
-exec 'highlight ColorColumn guibg=' . s:grey233
+exec 'highlight ColorColumn guibg=' . s:grey244
 
 " Conceal color
 exec 'highlight Conceal guibg=NONE guifg=' . s:grey249
